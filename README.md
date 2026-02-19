@@ -1,20 +1,11 @@
-# Engineering-Coding-Project1
-Creating a code of our option.
-def add ( a, b):
-    return a + b
-def subtract ( a, b)
-    return a - b
-def multiply( a, b):
-    return a * b 
-def divide ( a, b):
-    if b == 0: 
-        return "Error! Division by zero."
-    return a / b
-def power ( a, b):
-    return a ** b
-def modolus ( a, b):
-    if b == 0:
-        return "Error! Modulus by zero."
-    return a % b
-def calculator 
-print 
+1. What do you want your code to do (explain both what you want it to do generally and what criteria you are aiming to fulfill)
+Goal: I want my code to work as a calculator that will let users:
+-Enter two numbers
+-Choose an operation ( +, -,*, /)
+-Get the correct answer
+
+My criteria:
+    
+
+What does your code currently do (to gauge how much progress you believe you have made towards your goal)
+What areas would you like guidance on?

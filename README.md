@@ -13,7 +13,7 @@ My goals for this project are:
 - Use error handling to catch mistakes
 - Handle at least 2 types of errors
 - Handle 3 different errors
-- Use at least 3 different string mathods
+- Use at least 3 different string methods
 
 
 Conclusion:
@@ -30,11 +30,32 @@ What areas would you like guidance on?
 
 Checkpoint 2
 1. Have you changed what you want your code to do? (If so tell me how its purpose has changed)
+- When the code ends the equation it is no longer just going to stop there, instead it is going to give the option to add more equations
+- Code is going to have the option of choosing a root equation
 
-   
-3. What have you added since last time to accomplish your goal? (New code?)
+What have you added since last time to accomplish your goal? (New code?)
+- I have finished the code
+Here is a breakdown of the completed section since checkpoint 1:
 
+String Section
+- This section uses string methods to format and display messages in a way that looks neat
+- It converts text to uppercase
+- Removes extra spaces from text
+- It capitalizes the word "Ready"
+- It prints a line of dashes to separate sections of code
+- This part is only for improving how the program visually looks
 
+Get Digits From User section
+- This section will be asking the user to enter the first two numbers:
+  1.Ask the user for the first number
+  2.Ask the user for the second number
+- Converts both inputs into decimal numers using float()
+- Returns the two numbers
+- If the user types something that is not a number:
+  1.The program will catch the error
+  2.Prints error message
+  - Returns None values so the program can safely stop the calculation, and does not crash due to the invalid input 
 4. What areas would like guidance on for this last checkpoint before the project is actually due?
+- I don't currently have in mind any areas I need guidance on before the project is actually do.
    
    

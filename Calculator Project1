@@ -1,0 +1,43 @@
+# Function 1: Display welcome message using string methods
+def welcome():
+    message = "Welcome To My Calculator Program"
+
+    # Using string methods 
+    print(message.upper()) 
+    print(message.strip())
+    print("Program Status:", "ready".capitalize())
+    print("-" * 40)
+    
+
+
+    #Function 2: Get digits from the user 
+    def get_numbers():
+        try:
+            num1 = float(input("Enter the first number:"))
+            num2 = float(input("Enter the seond number:"))
+            return num1, num2
+        
+        except ValueError:
+            print("Error: Please enter valid number.")
+            return None, None
+        
+
+
+    #Function 3: Do the calculation
+    def calculate(num1, num2):
+        try:
+            operation = input("Choose opertion(+, -, *, /):").strip()
+
+            if operation =="+":
+                result = num1 + num2
+
+            elif operation == "-":
+                result = num1 * num2
+            
+            elif operation == "/":
+                if num2 == 0:
+                    raise ZeroDivisionError
+                result = num1 / num2
+
+            else:
+                raise TypeError

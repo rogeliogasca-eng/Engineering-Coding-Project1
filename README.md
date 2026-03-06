@@ -87,22 +87,22 @@ Get Digits From User Section ( #Function 2)
 
 Final Checkpoint
 1. Does your code fulfill exactly what you have written in your README.txt file?
-   Yes, my code exactly fulfills what I have written in my README.text file.
+- Yes, my code exactly fulfills what I have written in my README.text file.
    
-2. Do you leave comments (using #) within your code to explain what a function does, or what the purpose of a while loop is in your code (this is especially important to keep track of and document if you have more than 1 while loop), or what a weird looking if statement does, etc.? Do you leave enough comments in your code that you or someone else could look at this a year from now and know exactly what each line does and how it helps make the program work?
-   Yes, I have left comments in my code and somone else will be able to understand my code very easily. Due way in which I organized my comments my code is going to be very easy to understand, I organized my comments by sections of the code, each section of my code has a comment saying what it is about.
+3. Do you leave comments (using #) within your code to explain what a function does, or what the purpose of a while loop is in your code (this is especially important to keep track of and document if you have more than 1 while loop), or what a weird looking if statement does, etc.? Do you leave enough comments in your code that you or someone else could look at this a year from now and know exactly what each line does and how it helps make the program work?
+- Yes, I have left comments in my code and somone else will be able to understand my code very easily. Due way in which I organized my comments my code is going to be very easy to understand, I organized my comments by sections of the code, each section of my code has a comment saying what it is about.
    
-3. Does your code know how to handle alphabetic and non-alphabetic characters (numbers, special characters like "!", "~", "-", " ", etc.), or will it crash the program?
-   Yes, my code knows how to handle alphabetic and non-alphabetic chacracters and it will not crash. If the user enters invalid characters my code will tell the user it is typing wrong characters and automatically stop itself, this will keep the code safe from crashing.
+5. Does your code know how to handle alphabetic and non-alphabetic characters (numbers, special characters like "!", "~", "-", " ", etc.), or will it crash the program?
+- Yes, my code knows how to handle alphabetic and non-alphabetic chacracters and it will not crash. If the user enters invalid characters my code will tell the user it is typing wrong characters and automatically stop itself, this will keep the code safe from crashing.
    
-4. Are the instructions you give to the user clearly written? Will someone random be able to navigate the program and use ALL its features without you being there to help them?
-   Yes, the instructions gven to the user are clearly written, and someone random will be able to navigate the program. My code is very user friendly and will be easy to navigate.
+7. Are the instructions you give to the user clearly written? Will someone random be able to navigate the program and use ALL its features without you being there to help them?
+- Yes, the instructions gven to the user are clearly written, and someone random will be able to navigate the program. My code is very user friendly and will be easy to navigate.
    
-5. Does your code anticipate the user inputting a close-but-different variation of your "break" condition ("quit" or "Quit" or "DONE" or "n" for "no"?)? Essentially, how much freedom do you give the user to input different things, or if you don't give a wide variety of choices, do you clearly communicate how the user can get to where they want/do what they want in your code?
-   Yes, I clearly communicate how the user can get to where they want. My code shows and tells the user the variety of options he has to enter, if the user enters a character that is obviously unvalid or not mentioned in the program, then it will tell the user.
+9. Does your code anticipate the user inputting a close-but-different variation of your "break" condition ("quit" or "Quit" or "DONE" or "n" for "no"?)? Essentially, how much freedom do you give the user to input different things, or if you don't give a wide variety of choices, do you clearly communicate how the user can get to where they want/do what they want in your code?
+- Yes, I clearly communicate how the user can get to where they want. My code shows and tells the user the variety of options he has to enter, if the user enters a character that is obviously unvalid or not mentioned in the program, then it will tell the user.
 
-7. Does your code use all the functions/features that you have in your program, or are there some old ideas that didn't get implemented that are just taking up memory?
-   Yes, my ocde uses all the functions that I have in my program. 
+11. Does your code use all the functions/features that you have in your program, or are there some old ideas that didn't get implemented that are just taking up memory?
+- Yes, my ocde uses all the functions that I have in my program. 
 
    
    

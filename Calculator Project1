@@ -1,43 +1,84 @@
-# Function 1: Display welcome message using string methods
-def welcome():
-    message = "Welcome To My Calculator Program"
+import math
 
+# Function 1: Display welcome message using string methods, with date and time
+def welcome():
+    message = "Welcome"
+
+    
     # Using string methods 
     print(message.upper()) 
     print(message.strip())
     print("Program Status:", "ready".capitalize())
     print("-" * 40)
+
+
+
+# Function 2: Ask for the user's name
+def get_user_name():
+    welcome = input("Welcome To My Calculator. How is your day? :").strip().capitalize()
+    name = input("Enter your name:").strip().capitalize()
+    print(f"Welcome {name}!")
+    print("-" * 40)
+    return name
+
     
 
-
-    #Function 2: Get digits from the user 
-    def get_numbers():
-        try:
-            num1 = float(input("Enter the first number:"))
-            num2 = float(input("Enter the seond number:"))
-            return num1, num2
-        
-        except ValueError:
-            print("Error: Please enter valid number.")
-            return None, None
-        
+ #Function 3: Get digits from the user 
+def get_numbers():
+    try:
+        num1 = float(input("Enter the first number:"))
+        num2 = float(input("Enter the second number:"))
+        return num1, num2
+    except ValueError:
+        print("Error: Please enter valid numbers user!")
+        return None, None
 
 
-    #Function 3: Do the calculation
-    def calculate(num1, num2):
-        try:
-            operation = input("Choose opertion(+, -, *, /):").strip()
+ #Function 4: Do the calculation
+def calculate(num1, num2):
+    try:
+        operation = input("Choose operation (+, -, *, /):").strip()
 
-            if operation =="+":
-                result = num1 + num2
+        if operation == "+":
+            result = num1 + num2
 
-            elif operation == "-":
-                result = num1 * num2
-            
-            elif operation == "/":
-                if num2 == 0:
-                    raise ZeroDivisionError
+        elif operation == "-":
+            result = num1 - num2
+
+        elif operation == "*":
+            result = num1 * num2
+
+        elif operation == "/":
+            if num2 == 0:
+                raise ZeroDivisionError
                 result = num1 / num2
 
-            else:
-                raise TypeError
+        else:
+            raise TypeError
+
+        print("Result:", result)
+
+    except ZeroDivisionError:
+        print("Error: You cannot devide by zero")
+
+    except ValueError as ve:
+        print("Error:", ve)
+
+    except TypeError:
+        print("Error: invalid operation selected.")
+
+    except Exception:
+        print("Error:  Something went wrong buddy.")
+
+
+
+#Main Program
+
+user_name = get_user_name() 
+
+num1, num2 = get_numbers()
+if num1 is not None and num2 is not None:
+    calculate(num1, num2)
+
+print(f"\nThank you for being creative with the calculator, {user_name}!")
+
